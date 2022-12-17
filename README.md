@@ -168,3 +168,26 @@ public class PlayerController : MonoBehaviour
         canSpawn = true;
     }
 }
+
+
+//
+//
+//
+//
+//Pour collecter un item, il faut ce script
+
+
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CollectableType : MonoBehaviour
+{
+    public string type;
+}
+
+
+
+// le placer dans sword et ajouter le tag collectable
